@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>National Skill</title>
+    <link rel="shortcut icon" href="https://pembattech.github.io/nationalskill.edu.np/static/img/logo.jpg" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    {% load static %}
+    <link rel="stylesheet" type="text/css"
+        href="https://pembattech.github.io/nationalskill.edu.np/static/css/styles.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="site-pusher">
+
+            <header class="header">
+                <div class="hamburger-bar" style="display: flex; justify-content: space-between; padding:0 10px;">
+                    <div class="hamburger">
+                        <a href="#" class="header__icon" id="header__icon"></a>
+                    </div>
+
+                    <div class="logo-forsmallscreen">
+
+                        
+                        <a class="logo" href="https://pembattech.github.io/nationalskill.edu.np/">
+                            <img class="logo-img" src="https://pembattech.github.io/nationalskill.edu.np/static/img/logo.jpg" alt="National Skill">
+                        </a>
+                    </div>
+                </div>
+
+
+                <nav class="menu">
+                    <div class="nav-bar">
+                        <a class="logo nav-item" href="https://pembattech.github.io/nationalskill.edu.np/">
+                            <img class="logo-img" src="https://pembattech.github.io/nationalskill.edu.np/static/img/logo.jpg" alt="National Skill">
+                        </a>
+
+                        <ul class="nav-list">
+                            <a class="nav-link home-tab" href="https://pembattech.github.io/nationalskill.edu.np/">
+                                <li class="nav-item">Home</li>
+                            </a>
+                            <a class="nav-link about-tab" href="https://pembattech.github.io/nationalskill.edu.np/aboutus.html">
+                                <li class="nav-item">About Us</li>
+                            </a>
+
+                            <!-- <a class="nav-link notice-tab" href="https://pembattech.github.io/nationalskill.edu.np/noticeboard.html">
+                                <li class="nav-item">Notice Board</li>
+                            </a> -->
+
+                            <a class="nav-link gallery-tab" href="https://pembattech.github.io/nationalskill.edu.np/gallery.html">
+                                <li class="nav-item">Gallery</li>
+                            </a>
+                            <a class="nav-link contact-tab" href="https://pembattech.github.io/nationalskill.edu.np/contactus.html">
+                                <li class="nav-item">Contact Us</li>
+                            </a>
+                            <a class="nav-link register-tab" href="https://nationalskill-register.vercel.app/">
+                                <li class="nav-item">Register</li>
+                            </a>
+
+                        </ul>
+
+                        <div class="right-nav">
+                            <div class="nav-item">
+                                <a href="https://pembattech.github.io/nationalskill.edu.np/korea.html" class="nav-link korea-tab">Korea</a>
+                            </div>
+                            <div class="nav-item">
+                                <a class="nav-link quicklink-tab" href="https://pembattech.github.io/nationalskill.edu.np/quicklink.html">
+                                    Quick Link
+                                </a>
+                            </div>
+
+                            <div class="theme-switch nav-item">
+                                <div class="switch"></div>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                </nav>
+                <div class="horizontal-line below-nav"></div>
+            </header>
+
+
+
+
+            <div class="container">
+
+                {% block content %}
+
+                {% endblock %}
+            </div>
+
+            <footer>
+                <div class="footer-wrapper">
+                    <div class="content short-brief">
+                        <a class="logo" href="https://pembattech.github.io/nationalskill.edu.np/">
+                            <img class="logo-img" src="https://pembattech.github.io/nationalskill.edu.np/static/img/logo.jpg" alt="National Skill">
+                        </a>
+
+                        <p>National Skill Institute (Bhaktapur) offers Korean language & computer skills training (basic
+                            to advanced) - speaking, listening, reading, writing, graphic design, programming. Boost
+                            your skills and explore new opportunities!
+                        </p>
+                    </div>
+
+                    <div class="footer-flex">
+                        <div class="connetwithnationalskill">
+                            <div class="heading">
+                                <p>Find National Skill on</p>
+                            </div>
+                            <div class="content social-links">
+                                <div class="footer-img__content">
+
+                                    <a href="https://www.facebook.com">
+                                        <img class="footer-img" src="https://pembattech.github.io/nationalskill.edu.np/static/img/assets/facebook.png" alt="Facebook">
+                                        Facebook
+                                    </a>
+                                </div>
+                                <div class="footer-img__content">
+
+                                    <a href="https://www.youtube.com/">
+                                        <img class="footer-img" src="https://pembattech.github.io/nationalskill.edu.np/static/img/assets/youtube.png" alt="YouTube">
+                                        YouTube
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="company-info">
+                            <div class="heading">
+                                <p>Company</p>
+                            </div>
+
+                            <div class="content">
+                                <ul>
+                                    <a class="about-tab" href="https://pembattech.github.io/nationalskill.edu.np/aboutus.html">
+                                        <li>About Us</li>
+                                    </a>
+                                    <!-- <a class="notice-tab" href="#">
+                                        <li>Notice Board</li>
+                                    </a> -->
+
+                                    <a class="gallery-tab" href="https://pembattech.github.io/nationalskill.edu.np/gallery.html">
+                                        <li>Gallery</li>
+                                    </a>
+                                    <a class="contact-tab" href="https://pembattech.github.io/nationalskill.edu.np/contactus.html">
+                                        <li>Contact Us</li>
+                                    </a>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="getintouch">
+                            <div class="heading">
+                                <p>Get In Touch</p>
+                            </div>
+                            <div class="content">
+                                <div class="footer-img__content">
+                                    <img class="footer-img" src="https://pembattech.github.io/nationalskill.edu.np/static/img/assets/location.png" alt="">
+                                    <p>
+                                        Suryabinayak, Bhaktapur
+                                    </p>
+                                </div>
+                                <div class="footer-img__content">
+                                    <img class="footer-img" src="https://pembattech.github.io/nationalskill.edu.np/static/img/assets/phone-call.png" alt="">
+                                    <p>
+                                        <a href="tel:9769321075">9769321075</a>
+
+                                    </p>
+                                </div>
+                                <div class="footer-img__content">
+                                    <img class="footer-img" src="https://pembattech.github.io/nationalskill.edu.np/static/img/assets/gmail.png" alt="">
+                                    <p>
+                                        <a href="mailto:example@gmail.com">nationalskill.edu.np@gmail.com</a>
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </footer>
+            <div class="site-cache" id="site-cache"></div>
+        </div>
+
+    </div>
+
+    <script src="https://pembattech.github.io/nationalskill.edu.np/static/js/script.js"></script>
+
+</body>
+
+</html>

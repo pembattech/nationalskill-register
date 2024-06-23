@@ -1,20 +1,12 @@
-<!DOCTYPE html>
-<html>
+{% extends 'base.html' %}
 
-<head>
-    <title>Register</title>
-    {% load static %}
-    <link rel="stylesheet" type="text/css"
-        href="https://pembattech.github.io/nationalskill.edu.np/static/css/styles.css">
-</head>
+{% block content %}
 
-<body>
-    <h2>Registration Form</h2>
-    <form method="post">
-        {% csrf_token %}
-        {{ form.as_p }}
-        <button type="submit">Register</button>
-    </form>
-</body>
+<h2>Registration Form</h2>
+<form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Register</button>
+</form>
 
-</html>
+{% endblock %}
